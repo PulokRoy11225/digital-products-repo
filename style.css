@@ -1,0 +1,29 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.menu-container{
+  background-color:rgb(5, 225, 225);
+  padding: 20px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+}
+.menus{
+  display: flex;
+}
+.logopho{
+  width: 70px;
+}
+.item{
+  margin: 0px;
+  padding-right: 7px;
+  font-size: 15px;
+  cursor: pointer;
+  /* word-spacing: 5px; */
+  /* justify-content:right; */
+}
+.item:hover{
+  color: cornsilk;
+}
